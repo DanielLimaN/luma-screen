@@ -1,6 +1,8 @@
 # LumaScreen
 
-A virtual ring light application for video calls, streaming, and content creation. This lightweight desktop application creates a customizable, translucent light effect around your screen edges to improve lighting quality during video recording or calls.
+A virtual ring light application for Linux distributions, designed for video calls, streaming, and content creation. This lightweight desktop application creates a customizable, translucent light effect around your screen edges to improve lighting quality during video recording or calls.
+
+**Platform:** Linux (X11/Wayland) | **Distribution:** AppImage for universal compatibility
 
 ## Features
 
@@ -14,10 +16,16 @@ A virtual ring light application for video calls, streaming, and content creatio
 
 ## Requirements
 
+**Platform Requirements:**
+- **Operating System:** Linux distributions (Ubuntu, Fedora, Debian, Arch, etc.)
+- **Display Server:** X11 (fully tested) or Wayland (experimental support)
+- **Architecture:** x86_64
+
+**Runtime Requirements** (when running from source):
 - Python 3.10 or higher
-- PySide6 (Qt for Python)
-- Linux with X11 or Wayland (tested on X11)
-- May work on Windows and macOS (untested)
+- PySide6 (Qt for Python) >= 6.6.0
+
+**Note:** Windows and macOS are not currently supported. The AppImage is self-contained and works on most Linux distributions without additional dependencies.
 
 ## Installation
 
