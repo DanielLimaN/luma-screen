@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=LumaScreen
+GenericName=Virtual Screen Light
+Comment=Virtual screen light overlay for video calls and streaming
+Exec=lumascreen
+Icon=lumascreen
+Terminal=false
+Categories=Utility;AudioVideo;Video;
+Keywords=luma;screen;light;video;call;streaming;webcam;ring;
+StartupNotify=true
+StartupWMClass=lumascreen
